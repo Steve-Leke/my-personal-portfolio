@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Anonymous Pro';
+}
+
+body {
+  background-color: #1c60a0;
+}
+
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 60px;
+}
+
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid #fff;
+  transition: 0.6s ease;
+}
+
+ul li a:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+ul li.active a{
+  background-color: #fff;
+  color: #000;
+}
+
+.logo img{
+  float: left;
+  margin-top: 10px;
+  width: 150px;
+  height: auto;
+}
+
+.main{
+  max-width: 1200px;
+  margin: auto;
+}
+
+.headshot{
+  position: absolute;
+  top: 60%;
+  left: 20%;
+  transform: translate(-50%,-50%);
+}
+
+.intro{
+  position: absolute;
+  top: 40.1%;
+  left: 56.5%;
+  width: 20%;
+  height: 20%;
+  font-size: 15px;
+  transform: translate(-50%,-50%);
+  background-color: #fff;
+  padding: 25px 25px;
+}
+
+.tech{
+  position: absolute;
+  top: 40.1%;
+  left: 85%;
+  width: 20%;
+  height: 20%;
+  font-size: 13px;
+  transform: translate(-50%,-50%);
+  background-color: #fff;
+  padding: 25px 25px;
+}
+
+.next{
+  position: absolute;
+  top: 80%;
+  left: 56.5%;
+  width: 20%;
+  height: 20%;
+  font-size: 12px;
+  transform: translate(-50%,-50%);
+  background-color: #fff;
+  padding: 25px 25px;
+}
+
+.hobbies{
+  position: absolute;
+  top: 80%;
+  left: 85%;
+  width: 20%;
+  height: 20%;
+  font-size: 18px;
+  transform: translate(-50%,-50%);
+  background-color: #fff;
+  padding: 25px 25px;
+}
+
+.hobbies ul{
+  margin-top: 20px;
+}
+
+.hobbies ul li{
+  display: list-item;
+  list-style-type: circle;
+
+
+}
