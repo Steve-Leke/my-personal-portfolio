@@ -1,5 +1,7 @@
 *{
   font-family: 'Anonymous Pro';
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -54,26 +56,40 @@ body {
 }
 
 #intro {
-  padding-top: 40%;
+  padding-top: 47%;
 }
 
 #introText{
   font-size: 15px;
-  padding-top: 25%;
+  padding-top: 30%;
   padding-right: 10%;
   padding-left: 10%;
 }
 
 #techText {
   font-size: 15px;
-  padding-top: 10%;
+  padding-top: 15%;
   padding-right: 10%;
   padding-left: 10%;
 }
 
 #strengthText {
   font-size: 15px;
-  padding-top: 15%;
+  padding-top: 20%;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+#goalText{
+  font-size: 15px;
+  padding-top: 21%;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+#learnText{
+  font-size: 15px;
+  padding-top: 23%;
   padding-right: 10%;
   padding-left: 10%;
 }
