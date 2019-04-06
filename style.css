@@ -52,64 +52,29 @@ ul li.active a{
   position: absolute;
   top: 60%;
   left: 20%;
-  transform: translate(-50%,-50%);
+  transform: translate(-15%,-48%);
 }
+
+
 
 .intro{
   position: absolute;
-  top: 40.1%;
-  left: 56.5%;
-  width: 20%;
-  height: 20%;
+  top: 58.1%;
+  left: 65.5%;
+  width: 41%;
+  height: 73%;
   font-size: 15px;
   transform: translate(-50%,-50%);
   background-color: #fff;
   padding: 25px 25px;
+  border-radius: 15px;
 }
 
-.tech{
-  position: absolute;
-  top: 40.1%;
-  left: 85%;
-  width: 20%;
-  height: 20%;
-  font-size: 13px;
-  transform: translate(-50%,-50%);
-  background-color: #fff;
-  padding: 25px 25px;
+.intro h2{
+  padding-bottom: 10px;
+  font-size: 22px;
 }
 
-.next{
-  position: absolute;
-  top: 80%;
-  left: 56.5%;
-  width: 20%;
-  height: 20%;
-  font-size: 12px;
-  transform: translate(-50%,-50%);
-  background-color: #fff;
-  padding: 25px 25px;
-}
-
-.hobbies{
-  position: absolute;
-  top: 80%;
-  left: 85%;
-  width: 20%;
-  height: 20%;
-  font-size: 18px;
-  transform: translate(-50%,-50%);
-  background-color: #fff;
-  padding: 25px 25px;
-}
-
-.hobbies ul{
-  margin-top: 20px;
-}
-
-.hobbies ul li{
-  display: list-item;
-  list-style-type: circle;
-
-
+.intro p{
+  padding-bottom: 10px;
 }
